@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A playful cartoon memory website made with love."
+    />
+    <title>For My Favorite Boy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="is-locked">
+    <section class="number-lock" id="numberLock" aria-label="Private memory lock">
+      <div class="number-lock__panel" id="numberLockPanel">
+        <div class="number-lock__oggy" aria-hidden="true"></div>
+        <p class="eyebrow eyebrow--yellow">A tiny secret door</p>
+        <h1>Tap our secret number.</h1>
+        <p class="number-lock__message">
+          One little code opens this cartoon world made just for you.
+        </p>
+
+        <div class="number-lock__dots" id="numberLockDots" aria-label="Entered code">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <div class="number-lock__keys" id="numberLockKeys">
+          <button type="button" data-lock-number="1" aria-label="1">1</button>
+          <button type="button" data-lock-number="2" aria-label="2">2</button>
+          <button type="button" data-lock-number="3" aria-label="3">3</button>
+          <button type="button" data-lock-number="4" aria-label="4">4</button>
+          <button type="button" data-lock-number="5" aria-label="5">5</button>
+          <button type="button" data-lock-number="6" aria-label="6">6</button>
+          <button type="button" data-lock-number="7" aria-label="7">7</button>
+          <button type="button" data-lock-number="8" aria-label="8">8</button>
+          <button type="button" data-lock-number="9" aria-label="9">9</button>
+          <button class="number-lock__utility" id="numberLockClear" type="button" aria-label="Clear code">&times;</button>
+          <button type="button" data-lock-number="0" aria-label="0">0</button>
+          <button class="number-lock__utility" id="numberLockBackspace" type="button" aria-label="Remove last number">&larr;</button>
+        </div>
+
+        <p class="number-lock__status" id="numberLockStatus" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <main>
+      <section class="hero" id="top">
+        <nav class="topbar" aria-label="Main navigation">
+          <a class="brand" href="#top" aria-label="Go to top">Us in cartoon land</a>
+          <div class="topbar__links">
+            <a href="#photos">Photos</a>
+            <a href="#videos">Videos</a>
+            <a href="#note">Note</a>
+          </div>
+        </nav>
+
+        <div class="hero__content">
+          <div class="hero__copy">
+            <p class="eyebrow">A very silly love story</p>
+            <h1>Hey, <span id="boyfriendName">my favorite boy</span>.</h1>
+            <p class="hero__message" id="heroMessage">
+              Welcome to our tiny cartoon world: a little chaotic, very funny,
+              and completely full of love.
+            </p>
+            <div class="hero__actions">
+              <a class="button button--red" href="#photos">See our memories</a>
+              <a class="button button--yellow" href="#note">Read my note</a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="hero__waves" aria-hidden="true"></div>
+      </section>
+
+      <section class="memory-section" id="photos">
+        <div class="section-heading">
+          <p class="eyebrow eyebrow--blue">Our picture chaos</p>
+          <h2>Every photo is my favorite episode with you.</h2>
+          <p>
+            Tap a photo to see it bigger. Each one comes with the little thought
+            I never want you to forget.
+          </p>
+        </div>
+        <div class="memory-grid" id="photoGrid" aria-live="polite"></div>
+      </section>
+
+      <section class="video-section" id="videos">
+        <div class="section-heading section-heading--light">
+          <p class="eyebrow eyebrow--yellow">Our mini movies</p>
+          <h2>Press play on the moments I replay in my head.</h2>
+          <p>
+            Add your favorite clips here: a laugh, a trip, a silly video, or a
+            random day that became special because it had you in it.
+          </p>
+        </div>
+        <div class="video-grid" id="videoGrid"></div>
+      </section>
+
+      <section class="note-section" id="note">
+        <div class="note-card">
+          <div class="note-card__bugs" aria-hidden="true">
+            <span class="bug bug--one"></span>
+            <span class="bug bug--two"></span>
+            <span class="bug bug--three"></span>
+          </div>
+          <p class="eyebrow eyebrow--blue">One last message</p>
+          <h2>To <span id="noteName">my favorite boy</span></h2>
+          <div class="note-card__text" id="loveNote"></div>
+          <p class="signature">Forever causing cute chaos, <span id="yourName">Your Name</span></p>
+        </div>
+      </section>
+    </main>
+
+    <dialog class="lightbox" id="photoLightbox" aria-label="Photo viewer">
+      <button class="lightbox__close" id="closeLightbox" type="button" aria-label="Close photo">×</button>
+      <img id="lightboxImage" src="" alt="" />
+      <p id="lightboxCaption"></p>
+    </dialog>
+
+    <aside class="corner-treasures" aria-hidden="true">
+      <span class="corner-treasure corner-treasure--chocolate">🍫</span>
+      <span class="corner-treasure corner-treasure--sunflower">🌻</span>
+      <span class="corner-treasure corner-treasure--ring">💍</span>
+      <span class="corner-treasure corner-treasure--coffee">☕</span>
+      <span class="corner-treasure corner-treasure--tea">🫖</span>
+      <span class="corner-treasure corner-treasure--camera">📷</span>
+      <span class="corner-treasure corner-treasure--infinity">∞</span>
+    </aside>
+
+    <section class="spotify-player" id="spotifyPlayer" aria-hidden="true">
+      <div id="spotifyEmbed"></div>
+    </section>
+
+    <button class="music-toggle" id="musicToggle" type="button" aria-label="Play music" title="Play music">&#9835;</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
