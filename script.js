@@ -1,69 +1,57 @@
 const CONFIG = {
-  boyfriendName: "my favorite boy",
-  yourName: "Your Name",
+  boyfriendName: "my favorite person",
+  yourName: "Your Love",
   lockCode: "2110",
   spotifyTrackUri: "spotify:track:1VFeSQ0eR8mL2MeR5tB0Ne",
   heroMessage:
-    "Welcome to our tiny cartoon world: a little chaotic, very funny, and completely full of love.",
+    "Welcome to our little world: full of laughter, sweet memories, and a love that keeps growing.",
   note: [
-    "You make my ordinary days feel like the best kind of episode: full of laughter, tiny adventures, and moments I want to replay forever.",
-    "Thank you for being my safe place, my favorite person, and the one who makes even the silliest moments feel special.",
-    "I hope you always remember this: I am cheering for you, choosing you, and loving you through every funny little bit of life."
+    "Every ordinary day feels beautiful when I get to share it with you. You make even the quiet moments feel warm and full of life.",
+    "Thank you for being my comfort, my favorite person, and the reason I smile more often than I ever used to.",
+    "I hope this little corner of the internet reminds you how deeply loved and truly special you are to me."
   ],
   photos: [
     {
-      src: "assets/photos/photo1.png",
-      title: "Jnn ❤️",
-      message:
-        "Thank you for always being there by my side whenever I needed someone. It means more to me than I can ever put into words. Thank you for being someone I can count on, for standing by me during difficult times, and for making things feel a little easier just by being there. I may not always express it, but I genuinely appreciate you and everything you do. I am truly grateful to have you in my life. 🫶🏻❤️"
+      src: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1200&q=80",
+      title: "Our first smile",
+      message: "The moment that started this beautiful chapter in my life."
     },
     {
-      src: "assets/photos/photo2.png",
-      title: "Baatamize Bache",
-      message:
-        "I want you to know that no matter what life brings your way, I will always be by your side. Through the good days and the difficult ones, you will always have me to count on. ❤️"
+      src: "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1200&q=80",
+      title: "You and me",
+      message: "Every day feels lighter and happier when I am with you."
     },
     {
-      src: "assets/photos/photo3.png",
-      title: "Cutu",
-      message:
-        "All I ever want is to see you happy, genuinely and wholeheartedly. No matter where life takes you or what comes your way, I hope you always find reasons to smile and feel at peace. You deserve all the happiness in the world. ❤️"
+      src: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1200&q=80",
+      title: "Tiny adventures",
+      message: "The little trips, laughs, and memories that turned into my favorite stories."
     },
     {
-      src: "assets/photos/photo4.png",
-      title: "Kaffeeine",
-      message:
-        "Do you remember the day we first met at Kaffeeine and the little notes on the walls? I remember telling you that one day we would come back and write a gratitude note for everything that place has given us. That place holds such a special place in my heart because it will always be a part of our story. ❤️"
+      src: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80",
+      title: "Growing together",
+      message: "I love seeing us grow, learn, and become even more comfortable in our own little world."
     },
     {
-      src: "assets/photos/photo5.png",
-      title: "The little things",
-      message:
-        "I really love how you can understand me with just one look. And now, after knowing me for over a year, it feels even more beautiful how you understand the little things that matter to me. The small gestures, like making sure I never feel left out during festivals, taking me along, eating from the same plate, or simply waiting for me to finish eating, mean so much more to me than you realise. It is these little things that make me feel seen, included, and cared for. ❤️"
+      src: "https://images.unsplash.com/photo-1526413232644-8a40f03cc03b?auto=format&fit=crop&w=1200&q=80",
+      title: "Sweet little chaos",
+      message: "The silly, messy, beautiful moments are the ones I treasure the most."
     },
     {
-      src: "assets/photos/photo6.png",
-      title: "Garba love",
-      message: "The crazy secrets, the madness, and the love for garba. 💃"
-    },
-    {
-      src: "assets/photos/photo7.png",
-      title: "Us, deeply",
-      message: "Pure depth, understanding, and emotions. 💓"
-    },
-    {
-      src: "assets/photos/photo8.png",
-      title: "Trips and vacations",
-      message:
-        "The trips and vacations that always turned into some very special stress-relief days. 😌"
+      src: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=1200&q=80",
+      title: "Always us",
+      message: "No matter where life goes, I want more memories like this with you."
     }
   ],
   videos: [
     {
-      src: "assets/videos/our-story.mp4",
-      title: "Our special stress-relief days",
-      message:
-        "The trips and vacations that always turned into some very special stress-relief days. 😌"
+      src: "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+      title: "Our happy moments",
+      message: "A tiny reminder of how beautiful and peaceful life feels with you beside me."
+    },
+    {
+      src: "https://www.w3schools.com/html/mov_bbb.mp4",
+      title: "Our little adventure",
+      message: "The carefree, fun, and unforgettable memories I replay in my head."
     }
   ]
 };
