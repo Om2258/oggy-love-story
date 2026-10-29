@@ -12,50 +12,46 @@ const CONFIG = {
   ],
   photos: [
     {
+      // Replace this with your own image path or URL.
+      // Example: "assets/photos/you-and-me.jpg"
       src: "assets/photos/photo1.png",
-      title: "Jnn ❤️",
-      message:
-        "Thank you for always being there by my side whenever I needed someone. It means more to me than I can ever put into words. Thank you for being someone I can count on, for standing by me during difficult times, and for making things feel a little easier just by being there. I may not always express it, but I genuinely appreciate you and everything you do. I am truly grateful to have you in my life. 🫶🏻❤️"
+      title: "Our first memory",
+      message: "Add your own caption here."
     },
     {
       src: "assets/photos/photo2.png",
-      title: "Baatamize Bache",
-      message:
-        "I want you to know that no matter what life brings your way, I will always be by your side. Through the good days and the difficult ones, you will always have me to count on. ❤️"
+      title: "A sweet moment",
+      message: "Write a short memory for this photo."
     },
     {
       src: "assets/photos/photo3.png",
-      title: "Cutu",
-      message:
-        "All I ever want is to see you happy, genuinely and wholeheartedly. No matter where life takes you or what comes your way, I hope you always find reasons to smile and feel at peace. You deserve all the happiness in the world. ❤️"
+      title: "Little adventures",
+      message: "Tell your story here."
     },
     {
       src: "assets/photos/photo4.png",
-      title: "Kaffeeine",
-      message:
-        "Do you remember the day we first met at Kaffeeine and the little notes on the walls? I remember telling you that one day we would come back and write a gratitude note for everything that place has given us. That place holds such a special place in my heart because it will always be a part of our story. ❤️"
+      title: "Your favorite us",
+      message: "Add a meaningful line here."
     },
     {
       src: "assets/photos/photo5.png",
-      title: "The little things",
-      message:
-        "I really love how you can understand me with just one look. And now, after knowing me for over a year, it feels even more beautiful how you understand the little things that matter to me. The small gestures, like making sure I never feel left out during festivals, taking me along, eating from the same plate, or simply waiting for me to finish eating, mean so much more to me than you realise. It is these little things that make me feel seen, included, and cared for. ❤️"
+      title: "Happy little chaos",
+      message: "This can be your cute memory caption."
     },
     {
       src: "assets/photos/photo6.png",
-      title: "Garba love",
-      message: "The crazy secrets, the madness, and the love for garba. 💃"
+      title: "Together always",
+      message: "Add one more sweet note here."
     },
     {
       src: "assets/photos/photo7.png",
-      title: "Us, deeply",
-      message: "Pure depth, understanding, and emotions. 💓"
+      title: "Our favorite days",
+      message: "Write what this picture means to you."
     },
     {
       src: "assets/photos/photo8.png",
-      title: "Trips and vacations",
-      message:
-        "The trips and vacations that always turned into some very special stress-relief days. 😌"
+      title: "Best memories",
+      message: "Add your final caption here."
     }
   ],
   videos: [
