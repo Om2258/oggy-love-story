@@ -12,11 +12,9 @@ const CONFIG = {
   ],
   photos: [
     {
-      // Replace this with your own image path or URL.
-      // Example: "assets/photos/you-and-me.jpg"
-      src: "assets/photos/photo1.png",
-      title: "Our first memory",
-      message: "Add your own caption here."
+      src: "assets/photos/IMG_001.jpg",
+      title: "Our little walk under the lights",
+      message: "Holding your hand in the middle of the crowd, with the whole city glowing around us, felt like the kind of moment I never want to forget."
     },
     {
       src: "assets/photos/photo2.png",
