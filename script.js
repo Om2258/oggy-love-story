@@ -12,52 +12,66 @@ const CONFIG = {
   ],
   photos: [
     {
-      src: "assets/photos/IMG_001.jpg",
+      src: "sandbox:/mnt/data/528BE952-E212-4767-87CD-7774F84E825B.jpeg",
       title: "Our little walk under the lights",
-      message: "Holding your hand in the middle of the crowd, with the whole city glowing around us, felt like the kind of moment I never want to forget."
+      message:
+        "Jnn❤️\n\nThank you for always being there by my side whenever I needed someone. It means more to me than I can ever put into words. Thank you for being someone I can count on, for standing by me during difficult times, and for making things feel a little easier just by being there. I’m truly grateful to have you in my life. 🫶🏻❤️"
     },
     {
-      src: "assets/photos/photo2.png",
-      title: "A sweet moment",
-      message: "Write a short memory for this photo."
-    },
-    {
-      src: "assets/photos/photo3.png",
-      title: "Little adventures",
-      message: "Tell your story here."
-    },
-    {
-      src: "assets/photos/photo4.png",
-      title: "Your favorite us",
-      message: "Add a meaningful line here."
-    },
-    {
-      src: "assets/photos/photo5.png",
+      src: "sandbox:/mnt/data/08846851-F65E-4957-BE7C-BE0065B70565.jpeg",
       title: "Happy little chaos",
-      message: "This can be your cute memory caption."
+      message:
+        "Baatamize Bache, I want you to know that no matter what life brings your way, I’ll always be by your side. Through the good days and the difficult ones, you’ll always have me to count on. ❤️"
     },
     {
-      src: "assets/photos/photo6.png",
-      title: "Together always",
-      message: "Add one more sweet note here."
+      src: "sandbox:/mnt/data/790835CC-B643-448F-B6B2-17A35FE944A8.jpeg",
+      title: "Late-night talks",
+      message:
+        "Cutu, all I ever want is to see you happy, genuinely and wholeheartedly. No matter where life takes you or what comes your way, I hope you always find reasons to smile and feel at peace. You deserve all the happiness in the world. ❤️"
     },
     {
-      src: "assets/photos/photo7.png",
+      src: "sandbox:/mnt/data/image(20261029-095327).png",
       title: "Our favorite days",
-      message: "Write what this picture means to you."
+      message:
+        "Do you remember the day we first met at Kaffeeine and the little notes on the walls? I remember telling you that one day we’d come back and write a gratitude note for everything that place has given us. That place holds such a special place in my heart because it will always be a part of our story. ❤️"
     },
     {
-      src: "assets/photos/photo8.png",
+      src: "sandbox:/mnt/data/image(20261029-095605).png",
+      title: "Tiny adventures",
+      message:
+        "I really love how you can understand me with just one look. And now, after knowing me for over a year, it feels even more beautiful how you understand the little things that matter to me. The small gestures, like making sure I never feel left out during festivals, taking me along, eating from the same plate, or simply waiting for me to finish eating, mean so much more to me than you realise. It’s these little things that make me feel seen, included, and cared for. ❤️"
+    },
+    {
+      src: "sandbox:/mnt/data/image(20261029-095705).png",
+      title: "Always us",
+      message:
+        "The crazy secrets, the madness, and the love for garba. 💃"
+    },
+    {
+      src: "sandbox:/mnt/data/image(20261029-095705).png",
+      title: "Our favorite smile",
+      message:
+        "Pure depth, understanding, and emotions. 💓"
+    },
+    {
+      src: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1200&q=80",
       title: "Best memories",
-      message: "Add your final caption here."
+      message:
+        "Every memory with you feels like a page I never want to close — full of love, laughter, and peace."
+    },
+    {
+      src: "sandbox:/mnt/data/image(20261029-100012).png",
+      title: "Best vacation",
+      message:
+        "The trips and vacations that always turned into some very special stress-relief days. 😌"
     }
   ],
   videos: [
     {
-      src: "assets/videos/our-story.mp4",
-      title: "Our special stress-relief days",
+      src: "sandbox:/mnt/data/VIDEO-2026-10-27-22-49-53.mp4",
+      title: "Our happy moments",
       message:
-        "The trips and vacations that always turned into some very special stress-relief days. 😌"
+        "Jnn, I really love how you remember every little thing I tell you, even the smallest details that I forget I’ve shared. It makes me feel special in a way I can’t explain. ❤️"
     }
   ]
 };
