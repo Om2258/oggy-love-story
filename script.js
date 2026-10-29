@@ -12,55 +12,49 @@ const CONFIG = {
   ],
   photos: [
     {
-      src: "sandbox:/mnt/data/528BE952-E212-4767-87CD-7774F84E825B.jpeg",
+      src: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1200&q=80",
       title: "Our little walk under the lights",
       message:
         "Jnn❤️\n\nThank you for always being there by my side whenever I needed someone. It means more to me than I can ever put into words. Thank you for being someone I can count on, for standing by me during difficult times, and for making things feel a little easier just by being there. I’m truly grateful to have you in my life. 🫶🏻❤️"
     },
     {
-      src: "sandbox:/mnt/data/08846851-F65E-4957-BE7C-BE0065B70565.jpeg",
+      src: "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1200&q=80",
       title: "Happy little chaos",
       message:
         "Baatamize Bache, I want you to know that no matter what life brings your way, I’ll always be by your side. Through the good days and the difficult ones, you’ll always have me to count on. ❤️"
     },
     {
-      src: "sandbox:/mnt/data/790835CC-B643-448F-B6B2-17A35FE944A8.jpeg",
+      src: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1200&q=80",
       title: "Late-night talks",
       message:
         "Cutu, all I ever want is to see you happy, genuinely and wholeheartedly. No matter where life takes you or what comes your way, I hope you always find reasons to smile and feel at peace. You deserve all the happiness in the world. ❤️"
     },
     {
-      src: "sandbox:/mnt/data/image(20261029-095327).png",
+      src: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80",
       title: "Our favorite days",
       message:
         "Do you remember the day we first met at Kaffeeine and the little notes on the walls? I remember telling you that one day we’d come back and write a gratitude note for everything that place has given us. That place holds such a special place in my heart because it will always be a part of our story. ❤️"
     },
     {
-      src: "sandbox:/mnt/data/image(20261029-095605).png",
+      src: "https://images.unsplash.com/photo-1526413232644-8a40f03cc03b?auto=format&fit=crop&w=1200&q=80",
       title: "Tiny adventures",
       message:
         "I really love how you can understand me with just one look. And now, after knowing me for over a year, it feels even more beautiful how you understand the little things that matter to me. The small gestures, like making sure I never feel left out during festivals, taking me along, eating from the same plate, or simply waiting for me to finish eating, mean so much more to me than you realise. It’s these little things that make me feel seen, included, and cared for. ❤️"
     },
     {
-      src: "sandbox:/mnt/data/image(20261029-095705).png",
+      src: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=1200&q=80",
       title: "Always us",
       message:
         "The crazy secrets, the madness, and the love for garba. 💃"
     },
     {
-      src: "sandbox:/mnt/data/image(20261029-095705).png",
+      src: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1200&q=80",
       title: "Our favorite smile",
       message:
         "Pure depth, understanding, and emotions. 💓"
     },
     {
       src: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1200&q=80",
-      title: "Best memories",
-      message:
-        "Every memory with you feels like a page I never want to close — full of love, laughter, and peace."
-    },
-    {
-      src: "sandbox:/mnt/data/image(20261029-100012).png",
       title: "Best vacation",
       message:
         "The trips and vacations that always turned into some very special stress-relief days. 😌"
@@ -68,7 +62,7 @@ const CONFIG = {
   ],
   videos: [
     {
-      src: "sandbox:/mnt/data/VIDEO-2026-10-27-22-49-53.mp4",
+      src: "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
       title: "Our happy moments",
       message:
         "Jnn, I really love how you remember every little thing I tell you, even the smallest details that I forget I’ve shared. It makes me feel special in a way I can’t explain. ❤️"
